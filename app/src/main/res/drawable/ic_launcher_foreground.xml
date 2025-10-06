@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Coin background (yellow circle) -->
+    <path
+        android:fillColor="#FFD600"
+        android:strokeWidth="0"
+        android:pathData="M54,6
+                          a48,48 0 1,0 0,96
+                          a48,48 0 1,0 0,-96z" />
+
+    <!-- Slight inner rim to make it look a bit like a coin edge -->
+    <path
+        android:fillColor="#FFCA28"
+        android:strokeWidth="0"
+        android:pathData="M54,14
+                          a40,40 0 1,0 0,80
+                          a40,40 0 1,0 0,-80z"
+        android:alpha="0.22" />
+
+    <!-- Rupee symbol - stylized using strokes -->
+    <!-- Top horizontal bar -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,30 H78" />
+
+    <!-- Second (shorter) horizontal bar -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,42 H72" />
+
+    <!-- Main slanted arm down to the body -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,30 L62,62" />
+
+    <!-- Vertical stem down -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M62,62 V78" />
+
+    <!-- Bottom curve / tail to give rupee-like hook -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M62,78 C58,82 50,80 48,76" />
+</vector>
